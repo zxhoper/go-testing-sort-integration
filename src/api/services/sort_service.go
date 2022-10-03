@@ -1,9 +1,13 @@
 package services
 
 import (
-	"github.com/zxhoper/go-testing-sort-integration/src/api/utils/sort"
+	"github.com/zxhoper/go-testing-sort-integration/src/api/utils/mysort"
+)
+
+const (
+	privateConst = "private"
 )
 
 func Sort(elements []int) {
-	sort.BubbleSort(elements)
+	mysort.BubbleSort(elements)
 }
