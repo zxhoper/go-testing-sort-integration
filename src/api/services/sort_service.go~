@@ -1,0 +1,9 @@
+package services
+
+import (
+	"gitlab.cloudokyo.dev/billhou/zxoomocksql/src/api/sort"
+)
+
+func Sort(elements []int) {
+	sort.B
+}
